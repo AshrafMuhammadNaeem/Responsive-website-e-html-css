@@ -18,15 +18,24 @@
     margin: 0;
 }
 
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 
 
 .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: var(--light-color);
 
 }
+header img{
+    margin-left: 36px;
+}
+
 .nav-list{
     display: flex;
     flex-direction: row;
@@ -34,8 +43,21 @@
     justify-content: space-between;
     
 }
+
+ul {
+    list-style-type: none;
+}
 a {
     text-decoration: none;
-    color: black;
-    margin: 0 0;
+    color: var(--dark-color);
+    margin: 0 16px;
 }
+
+a:hover{
+    border-bottom: 2px #F4CE14 solid;
+}
+
+
+
+
+
