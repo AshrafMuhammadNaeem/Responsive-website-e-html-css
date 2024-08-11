@@ -1,5 +1,9 @@
 
 
+/* Importing the fonts required according to Figma Design Karla and Markzai */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
 
 
 :root{
@@ -71,7 +75,7 @@ a:hover{
 
   .text {
     flex: 1;
-    
+    margin-left: 20px;
   }
 
 
