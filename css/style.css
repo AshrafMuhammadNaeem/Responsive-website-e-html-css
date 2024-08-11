@@ -62,6 +62,7 @@ a:hover{
 }
 
 /* Hero-section */
+
 .restaurant-section {
     background-color: #495E57;
     padding: 20px;
@@ -76,6 +77,57 @@ a:hover{
   .text {
     flex: 1;
     margin-left: 20px;
+  }
+
+  h1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 80px;
+    /* margin-bottom: 2px; */
+    color: var(--primary-color);
+    overflow: hidden;
+  }
+
+  h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: var(--white-color);
+    overflow: hidden;
+  }
+
+  .text p {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: var(--white-color);
+  }
+
+  .reserve-button {
+    background-color: var(--primary-color);
+    color: black;
+    border-radius: 16px;
+    border-color: #333333;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .image {
+    flex: 1;
+    text-align: right;
+    position: relative;
+    top: 40px;
+    height: 300px;
+    width: 400px;
+    padding: 5px;
+    z-index: 1;
+    margin-right: 24px;
+    
+  }
+
+  .content img {
+    border-radius: 16px;
   }
 
 
