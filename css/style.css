@@ -57,6 +57,22 @@ a:hover{
     border-bottom: 2px #F4CE14 solid;
 }
 
+/* Hero-section */
+.restaurant-section {
+    background-color: #495E57;
+    padding: 20px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .text {
+    flex: 1;
+    
+  }
 
 
 
