@@ -131,7 +131,14 @@ a:hover{
   }
 
 
+  /* Responsive Design */
 
+/* Tablet and under */
+
+
+
+
+  /* Responsive design Mobile and Under */
 
 @media(max-width:500px){
     .header{
