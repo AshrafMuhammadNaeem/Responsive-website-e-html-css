@@ -168,7 +168,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     width: 350px;
-    height: 500px;
+    
     background-color: var(--white-color);
     color: black;
     border-radius: 10px;
@@ -194,7 +194,11 @@ a:hover{
   }
 
   .card-content{
-    margin: 0 20px;
+    margin: 20 0px;
+  }
+
+  .card-content p{
+    margin: 0 16px;
   }
 
   .price{
@@ -202,6 +206,7 @@ a:hover{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-size: 16px;
     margin: 0 8px;
   }
   .delivery {
