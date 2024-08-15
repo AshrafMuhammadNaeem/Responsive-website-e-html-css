@@ -164,11 +164,16 @@ a:hover{
     cursor: pointer;
   }
 
+  .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .card {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    
+    width: 300px;
     background-color: var(--white-color);
     color: black;
     border-radius: 10px;
