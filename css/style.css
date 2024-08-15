@@ -131,6 +131,86 @@ a:hover{
   }
 
 
+  /* Dish specials section */
+
+  .dish-container{
+    max-width: 1080px;
+    margin: 96px 160px;
+  }
+
+  .specials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .specials h2{
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--dark-color);
+
+  }
+
+  .btn-primary{
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 16px;
+    border-color: #333333;
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    background-color: var(--white-color);
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+
+  .card-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* Add other styles for the image container */
+  }
+
+  .card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+
+    /* max-width: 100%;
+    max-height: 100%; */
+    /* Add other styles for the image */
+  }
+
+  .card-content{
+    margin: 0 20px;
+  }
+
+  .price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8px;
+  }
+  .delivery {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    column-gap: 20px
+  }
+
   /* Responsive Design */
 
 /* Tablet and under */
