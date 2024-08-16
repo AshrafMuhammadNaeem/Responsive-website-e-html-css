@@ -134,8 +134,8 @@ a:hover{
   /* Dish specials section */
 
   .dish-container{
-    max-width: 1080px;
-    margin: 96px 160px;
+    max-width: 1130px;
+    margin: 96px 100px;
   }
 
   .specials{
@@ -168,12 +168,13 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  
   }
 
   .card {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 350px;
     background-color: var(--white-color);
     color: black;
     border-radius: 10px;
@@ -190,7 +191,7 @@ a:hover{
 
   .card-image img {
     width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 16px;
 
     /* max-width: 100%;
@@ -212,13 +213,18 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
-    margin: 0 8px;
+    margin: 16px 12px;
+  }
+  .price p {
+    color: #F30B0B;
   }
   .delivery {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    /* justify-content: space-between; */
-    column-gap: 20px
+    justify-content: space-between;
+    margin: 32px 32px 8px 0;
+    
   }
 
   /* Responsive Design */
