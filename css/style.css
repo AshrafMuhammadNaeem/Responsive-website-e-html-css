@@ -237,6 +237,14 @@ a:hover{
           h1{
             white-space: nowrap;
           }
+
+          /* .specials{
+            flex-direction: column;
+          } */
+
+          /* .cards{
+            flex-wrap: wrap;
+          } */
 }
 
 
@@ -264,6 +272,15 @@ a:hover{
       margin-right: 0;
       text-align: center;
     }
+
+    .specials{
+      flex-direction: column;
+    }
     
+    .cards{
+      flex-direction: column ;
+      align-items: center;
+      gap: 40px;
+    }
   }
 
