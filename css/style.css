@@ -178,7 +178,7 @@ a:hover{
     color: black;
     /* border-radius: 10px 10px 0 0; */
     margin-top: 10px;
-    box-shadow: 3px 3px #e7e5e5;
+    box-shadow: 0.5px 4px rgba(0, 0, 0, 0.1);
 
   }
 
@@ -226,6 +226,7 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     margin: 32px 32px 8px 0;
+    font-weight: bold;
     
   }
 
