@@ -140,14 +140,13 @@ a:hover{
 
   .specials{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
   }
 
   .specials h2{
     font-family: 'Karla', sans-serif;
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: bold;
     color: var(--dark-color);
 
   }
@@ -238,9 +237,10 @@ a:hover{
             white-space: nowrap;
           }
 
-          /* .specials{
+          .specials{
             flex-direction: column;
-          } */
+            align-items: center;
+          }
 
           /* .cards{
             flex-wrap: wrap;
@@ -274,7 +274,7 @@ a:hover{
     }
 
     .specials{
-      flex-direction: column;
+      /* display: block; */
     }
     
     .cards{
