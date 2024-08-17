@@ -243,12 +243,11 @@ a:hover{
   margin-bottom: 72px;
 }
 
-.card-1 {
+.testimonial-card {
   display: flex;
   flex-direction: column;
   width: 250px;
   height: 200px;
-  background-color: var(--lightPr-color);
   color: black;
   border-radius: 16px;
   align-items: center;
