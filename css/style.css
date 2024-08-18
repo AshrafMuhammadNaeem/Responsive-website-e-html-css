@@ -305,6 +305,11 @@ a:hover{
  
 }
 
+.about p{
+  width: 100%;
+  margin: 16px 0 16px 0;
+}
+
 .about-img{
 
   padding: 40px;
