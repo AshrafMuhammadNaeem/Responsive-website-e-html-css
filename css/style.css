@@ -291,17 +291,31 @@ a:hover{
 }
 
 
-.about-img{
+/* About section */
+
+.about-section{
+  background-color: var(--secondary-color);
   display: flex;
   flex-direction: row;
-  position: relative; 
-    width: 150px; 
-    height: auto;
+  justify-content: space-between;
+  
+  padding: 48px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.about-img{
+ 
   
 }
 
 .about-img img{
-  position: absolute; 
+  position: absolute;
     width: 150px;
     height: auto;
     border-radius: 8px;
