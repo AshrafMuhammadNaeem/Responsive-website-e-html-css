@@ -295,43 +295,28 @@ a:hover{
 
 .about-section{
   background-color: var(--secondary-color);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
   padding: 48px;
 }
 
 .about{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
  
 }
 
 .about-img{
- 
-  
+
+  padding: 40px;
+  margin: 8px 8px;
+  width: 1800px;
 }
 
 .about-img img{
-  position: absolute;
-    width: 150px;
-    height: auto;
     border-radius: 8px;
+    width: 100%;
+    margin: 16px 24px;
 }
-
-.about-img img:last-child{
-  z-index: 2;
-}
-
-.about-img img:first-child{
-  z-index: 1; 
-    top: 20px; 
-    left: 120px;
-
-}
-
 
   /* Responsive design Mobile and Under */
   @media(max-width:500px){
