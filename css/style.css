@@ -295,7 +295,7 @@ a:hover{
 
 .about-section{
   background-color: var(--secondary-color);
-  padding: 48px;
+  padding: 16px;
 }
 
 .about{
@@ -307,7 +307,8 @@ a:hover{
 
 .about p{
   width: 100%;
-  margin: 16px 0 16px 0;
+  margin: 16px 32px 0 0;
+  overflow: hidden;
 }
 
 .about-img{
@@ -315,12 +316,13 @@ a:hover{
   padding: 40px;
   margin: 8px 8px;
   width: 1800px;
+  margin: 16px 72px 16px 16px;
 }
 
 .about-img img{
     border-radius: 8px;
     width: 100%;
-    margin: 16px 24px;
+   
 }
 
   /* Responsive design Mobile and Under */
