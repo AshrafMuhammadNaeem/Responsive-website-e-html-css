@@ -305,6 +305,41 @@ a:hover{
    
 }
 
+
+/* Footer */
+
+.bg-dark{
+  background-color: var(--light-color);
+}
+
+.footer{
+  margin: 0 auto;
+  overflow: auto;
+  padding: 24px 40px;
+  
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.bg-dark a,
+.social a{
+    color: black;
+}
+
+.social-icon {
+    margin: 0 15px;
+    font-size: 50px;
+}
+.footer-nav{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+
+}
+
   /* Responsive Design */
 
 /* Tablet and under */
