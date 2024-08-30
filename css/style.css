@@ -397,11 +397,15 @@ a:hover{
     
 
     .image{
+      overflow: hidden;
       margin-right: 0;
       text-align: center;
       margin-top: 16px;
+      
     }
-    
+.image img{
+  height: auto;
+}
 
     .specials{
       flex-direction: column;
