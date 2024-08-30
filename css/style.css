@@ -388,7 +388,7 @@ a:hover{
       flex-direction: column;
       align-items: center;
       text-align: center;
-      overflow: hidden;
+      
     }
 
     .text h1 {
@@ -397,15 +397,13 @@ a:hover{
     
 
     .image{
-      overflow: hidden;
+      flex: 0 0 0;
       margin-right: 0;
       text-align: center;
       margin-top: 16px;
       
+      
     }
-.image img{
-  height: auto;
-}
 
     .specials{
       flex-direction: column;
